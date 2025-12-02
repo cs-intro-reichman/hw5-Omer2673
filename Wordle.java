@@ -172,7 +172,7 @@ public class Wordle {
         }
 
         if (!won) {
-            System.out.println(secret);
+            System.out.println("You lost. The secret word was " + secret);
             // ... follow the assignment examples for how the printing should look like
         }
 
